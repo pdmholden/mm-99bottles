@@ -1,5 +1,9 @@
 class Bottles
 
+  def song
+    verses(99, 0)
+  end
+
   def verses(first, last)
     section = ""
     (last..first).to_a.reverse.each do |i|
