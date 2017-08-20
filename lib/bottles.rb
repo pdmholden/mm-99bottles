@@ -1,5 +1,16 @@
 class Bottles
 
+  def verses(first, last)
+    section = ""
+    (last..first).to_a.reverse.each do |i|
+      section += verse(i)
+      if (i != last)
+        section += "\n"
+      end
+    end
+    section
+  end
+
   def verse(n)
     result = "#{n} bottles of beer on the wall, #{n} bottles of beer.\n"
     if (n > 2)
