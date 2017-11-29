@@ -1,0 +1,1 @@
+Code at the end of Chapter 5. This refactored the code from #chap-4, pulling the private methods out into a separate `BottleNumber` class. In our own exercises we went a bit further, part way through Chapter 6, by adding the `#successor` method and its corresponding changes.
